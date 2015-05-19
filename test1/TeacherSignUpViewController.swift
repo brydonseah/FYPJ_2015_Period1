@@ -89,10 +89,7 @@ class TeacherSignUpViewController: UIViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
-        if(segue.identifier == "SaveUser"){
-            let vc = segue.destinationViewController as! TeacherLoginViewController
-            vc.firstPass = randomPass
-        }
+        
         }
    
 }
